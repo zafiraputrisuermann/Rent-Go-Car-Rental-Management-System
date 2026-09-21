@@ -1,10 +1,10 @@
-# Capstone Project Modul 2 Python - CRUD Rental Mobil
+# Rent & Go Car Rental Management System
 RENT & GO 🚗
 Python-Based Car Rental Management System
 
 RENT & GO is a command-line car rental management application developed using Python. The application allows users to manage vehicle data, perform CRUD operations, search and filter vehicles, sort vehicle data, manage rental and return transactions, and view vehicle statistics.
 
-📌 Features
+# 📌 Features
 
 1. Read Data
 -  View all vehicle data
@@ -73,7 +73,7 @@ Vehicle data can be sorted by:
 -  Oldest vehicle year
 -  Brand A-Z
 
-🗂️ Data Structure
+# 🗂️ Data Structure
 
 The application stores vehicle information using multiple Python lists. Each vehicle is represented across the same index position in each list.
 
@@ -114,10 +114,9 @@ Valid Statuses
 
 The tabulate library is used to display vehicle data in formatted tables in the command-line interface.
 
-⚙️ Installation
+# ⚙️ Installation
 
 1. Install Python
-
 Make sure Python is installed on your computer.
 Check your Python installation:
 python --version
@@ -203,15 +202,14 @@ RENT & GO
 └── Program Execution
     └── menuUtama()
    
-🧠 CRUD Operations
+# 🧠 CRUD Operations
 Operation	  |   Function	    |  Purpose
 Create	    |   menuCreate()	|  Add new vehicle data
 Read	      |   menuRead()	  |  View, search, filter, and sort data
 Update	    |   menuUpdate()	|  Modify existing vehicle data
 Delete	    |   menuDelete()	|  Remove vehicle data
 
-🔐 Input Validation
-
+# 🔐 Input Validation
 The application includes:
 - Vehicle code uniqueness validation
 - Numeric input validation
@@ -222,8 +220,7 @@ The application includes:
 - Rented vehicle deletion restriction
 - Confirmation before important actions
   
-📊 Initial Dataset
-
+# 📊 Initial Dataset
 The application starts with 5 vehicles:
 Code	|  Brand	    |  Type	    |  Category	  |  Year	|  Daily      |  Rental	Status
 M001	|  Toyota	    |  Avanza	  |  MPV	      |  2020	|  Rp300,000	|  Available
@@ -232,7 +229,7 @@ M003	|  Suzuki	    |  Ertiga	  |  Hatchback	|  2021	|  Rp200,000	|  Rented
 M004	|  Nissan	    |  X-Trail	|  SUV	      |  2018	|  Rp400,000	|  Maintenance
 M005	|  Mitsubishi	|  Pajero	  |  SUV	      |  2020	|  Rp450,000	|  Available
 
-⚠️ Notes
+# ⚠️ Notes
 - This project is a command-line application.
 - Vehicle data is stored in Python lists.
 - The application does not use a database.
@@ -240,13 +237,13 @@ M005	|  Mitsubishi	|  Pajero	  |  SUV	      |  2020	|  Rp450,000	|  Available
 - Restarting the program will restore the initial dataset.
 - The tabulate library is required to display formatted tables.
 
-👩‍💻 Project Information
+# 👩‍💻 Project Information
 Project: RENT & GO
 Type: Python-Based Car Rental Management System
 Course: Capstone Project Module 2
 Developer: Zafira Putri Suerman
 
-🎯 Learning Objectives
+# 🎯 Learning Objectives
 This project was developed to practice:
 - Python fundamentals
 - CRUD operations
